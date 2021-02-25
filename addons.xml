@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.revolution" name="Revolution" provider-name="Captain Jerk" version="2.0.4">
+<addon id="plugin.video.revolution" name="Revolution" provider-name="Captain Jerk" version="2.0.5">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.revolution.artwork" />
@@ -39,7 +39,7 @@
         </news>
     </extension>
 </addon>
-<addon id="script.module.revolutionscrapers" name="RevolutionScrapers" version="2.0.3" provider-name="Bill Oddie">
+<addon id="script.module.revolutionscrapers" name="RevolutionScrapers" version="2.0.4" provider-name="Bill Oddie">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
