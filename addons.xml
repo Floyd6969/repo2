@@ -39,7 +39,7 @@
         </news>
     </extension>
 </addon>
-<addon id="script.module.revolutionscrapers" name="RevolutionScrapers" version="2.0.5" provider-name="Bill Oddie">
+<addon id="script.module.revolutionscrapers" name="[COLORred]Revolution Scrapers[/COLOR]" version="2.0.6" provider-name="Bill Oddie">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
