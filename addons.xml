@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.revolution" name="Revolution" provider-name="Captain Jerk" version="2.0.5">
+<addon id="plugin.video.revolution" name="[COLORred]Revolution[/COLOR]" provider-name="Captain Jerk" version="2.0.6">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.revolution.artwork" />
