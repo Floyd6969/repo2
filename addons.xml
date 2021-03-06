@@ -144,7 +144,7 @@
 </addon>
 <addon id="plugin.video.DejaVu_Again"                                                                                                                                    
 	   name="[COLORgold]DejaVu Again[/COLOR]"                                                 
-	   version="1.1.0"                                                                                                                                        
+	   version="1.1.1"                                                                                                                                        
 	   provider-name="Basil Brush">
     <requires>
 	    <import addon="script.module.resolveurl" />
