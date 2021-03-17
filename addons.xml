@@ -142,29 +142,6 @@
     </assets>
   </extension>
 </addon>
-<addon id="plugin.video.DejaVu_Again"                                                                                                                                    
-	   name="[COLORgold]DejaVu Again[/COLOR]"                                                 
-	   version="1.2.3"                                                                                                                                        
-	   provider-name="Basil Brush">
-    <requires>
-	    <import addon="script.module.resolveurl" />
-    </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">All Credit To aa - Works On Matrix</summary>
-    <description lang="en">All Credit To aa - Works On Matrix</description>
-	
-    <platform>all</platform>
-	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-  
-</addon>
 <addon id="plugin.video.Cloud9"                                                                                                                                    
 	   name="[COLORgold]Cloud 9[/COLOR]"                                                 
 	   version="1.0.4"                                                                                                                                        
@@ -242,7 +219,7 @@
 </addon>
 <addon id="plugin.video.DejaVu"                                                                                                                                    
 	   name="[COLORgold]DejaVu[/COLOR]"                                                 
-	   version="1.3.4"                                                                                                                                        
+	   version="1.3.5"                                                                                                                                        
 	   provider-name="Basil Brush">
     <requires>
 	    <import addon="script.module.resolveurl" />
