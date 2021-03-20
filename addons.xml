@@ -220,10 +220,11 @@
 </addon>
 <addon id="plugin.video.DejaVu"                                                                                                                                    
 	   name="[COLORgold]DejaVu[/COLOR]"                                                 
-	   version="1.3.5"                                                                                                                                        
+	   version="1.3.6"                                                                                                                                        
 	   provider-name="Basil Brush">
     <requires>
 	    <import addon="script.module.resolveurl" />
+		<import addon="plugin.video.youtube" />
     </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
