@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Cloud9"                                                                                                                                    
 	   name="[COLORgold]Cloud 9[/COLOR]"                                                 
-	   version="1.0.6"                                                                                                                                        
+	   version="1.0.7"                                                                                                                                        
 	   provider-name="Trigger">
     <requires>
 	    <import addon="script.module.resolveurl" />
-		<import addon="plugin.video.youtube" />
     </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
