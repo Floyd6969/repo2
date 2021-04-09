@@ -144,7 +144,7 @@
 </addon>
 <addon id="plugin.video.Cloud9"                                                                                                                                    
 	   name="[COLORgold]Cloud 9[/COLOR]"                                                 
-	   version="1.0.7"                                                                                                                                        
+	   version="1.0.8"                                                                                                                                        
 	   provider-name="Trigger">
     <requires>
 	    <import addon="script.module.resolveurl" />
