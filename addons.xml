@@ -221,35 +221,26 @@
 </addon>
 <addon id="plugin.video.Cloud9"                                                                                                                                    
 	   name="[COLORgold]Cloud 9[/COLOR]"                                                 
-	   version="1.0.9"                                                                                                                                        
+	   version="1.1.1"                                                                                                                                        
 	   provider-name="Trigger">
-	<requires>
-		<!-- <import addon="xbmc.python" version="2.1.0"/> -->
-		<import addon="script.module.beautifulsoup4" version="3.2.1"/>
-		<import addon="script.module.requests"  />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.module.dateutil"/>
-		<import addon="script.module.pytz"/>
-		<import addon="plugin.video.youtube" />
-		
-    	
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Sports Addon</summary>
-		<description lang="en">MIT License And Copyright Included In The Addon - This Addon Is A Modified Fork - All Credit Goes To The Original Creator
-We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
-</description>
-		
-		<platform>all</platform>
-
-		<assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
+    <requires>
+	    <import addon="script.module.resolveurl" />
+    </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Third Party Addon</summary>
+    <description lang="en">We Don't Host Any Of The Streams - They Are All Available On The Internet - Compatible With Matrix</description>
+	
+    <platform>all</platform>
+	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
     </assets>
-	</extension>
+  </extension>
+  
 </addon>
 <addon id="plugin.video.qcontinuum" name="Q Continuum" provider-name="Ezzer-man,Narcacist,cMaN, Stuart, DeLancie" version="0.0.1">
     <requires>
