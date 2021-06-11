@@ -411,25 +411,4 @@ We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.QSoaps" name="Q Soaps" version="0.0.1" provider-name="Q Continuum">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing" version="0.2.0" />
-	<import addon="plugin.video.dailymotion_com" version="2.4.2" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Q Soaps. Credits to Aliunde and the Micro Jen Group.</summary>
-    <assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-	</assets>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GPL-2.0-or-later</license>
-  </extension>
-</addon>
 </addons>
