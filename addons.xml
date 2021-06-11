@@ -144,7 +144,7 @@
 </addon>
 <addon id="plugin.video.Free"                                                                                                                                    
 	   name="[COLOR red]Free[/COLOR]"                                                 
-	   version="1.1.8"                                                                                                                                        
+	   version="1.1.9"                                                                                                                                        
 	   provider-name="Grot Shops">
     <requires>
 	    <import addon="script.module.resolveurl" />
