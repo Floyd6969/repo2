@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.maverick" name="[COLORlime][B]Maverick 19[/B][/COLOR]" version="0.0.2" provider-name="">
+<addon id="plugin.video.maverick" name="[COLORlime][B]Maverick 19[/B][/COLOR]" version="0.0.3" provider-name="">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
@@ -7,6 +7,7 @@
     <import addon="script.module.unidecode" />
     <import addon="script.module.inputstreamhelper" />
     <import addon="script.module.resolveurl"/>
+	<import addon="plugin.video.dailymotion_com"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
