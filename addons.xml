@@ -326,7 +326,7 @@ We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
     </assets>
   </extension>
 </addon>
-<addon id="plugin.video.fluxus" name="Fluxus IPTV" version="0.0.2" provider-name="X">
+<addon id="plugin.video.fluxus" name="Fluxus IPTV" version="0.0.4" provider-name="X">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"/>
@@ -344,7 +344,7 @@ We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
 		<website></website> 
 		<email></email>
 		<source></source>
-		<news>v0.0.1 - Kodi 19</news>
+		<news>v0.0.4 - fixed an error loading certain lists. v0.0.3 - Major upgrade!!! Fixed missing links, added Search, added Favourites, added Recently Played, added a link checker to prevent crashing on certain dead links v0.0.1 - Kodi 19</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
