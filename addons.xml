@@ -411,7 +411,7 @@ We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.maverick" name="[COLORlime][B]Maverick 19[/B][/COLOR]" version="0.0.3" provider-name="">
+<addon id="plugin.video.maverick" name="[COLORlime][B]Maverick 19[/B][/COLOR]" version="0.0.4" provider-name="">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
