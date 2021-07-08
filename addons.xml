@@ -304,12 +304,13 @@ We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
 </addon>
 <addon id="plugin.video.SimpleSports"                                                                                                                                    
 	   name="[COLORlime]Simple Sports[/COLOR]"                                                 
-	   version="0.0.2"                                                                                                                                        
+	   version="0.0.3"                                                                                                                                        
 	   provider-name="The Three Eyed Raven">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
     <import addon="script.module.routing" version="0.2.0" />
+    <import addon="script.module.resolveurl"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
