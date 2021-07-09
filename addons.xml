@@ -304,12 +304,14 @@ We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
 </addon>
 <addon id="plugin.video.SimpleSports"                                                                                                                                    
 	   name="[COLORlime]Simple Sports[/COLOR]"                                                 
-	   version="0.0.3"                                                                                                                                        
+	   version="0.0.4"                                                                                                                                        
 	   provider-name="The Three Eyed Raven">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
-    <import addon="script.module.routing" version="0.2.0" />
+    <import addon="script.module.routing"/>
+    <import addon="script.module.unidecode" />
+    <import addon="script.module.inputstreamhelper" />
     <import addon="script.module.resolveurl"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -317,14 +319,14 @@ We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Simple Sports</summary>
-	<description lang="en">We Don't Host Any Of The Streams, They Are All Available Free On The Internet - Only Works On Matrix</description>
+    <description lang="en">We Don't Host Any Of The Streams, They Are All Available Free On The Internet - Only Works On Matrix</description>
     <platform>all</platform>
     <language>en</language>
     <license>GPL-2.0-or-later</license>
 	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+  </assets>
   </extension>
 </addon>
 <addon id="plugin.video.fluxus" name="Fluxus IPTV" version="0.0.4" provider-name="X">
