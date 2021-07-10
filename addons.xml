@@ -438,7 +438,7 @@ We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
   </assets>
   </extension>
 </addon>
-<addon id="plugin.video.torquelite" name="[COLORlime]Torque Lite[/COLOR]" version="2.2" provider-name="">
+<addon id="plugin.video.torquelite" name="[COLORlime]Torque Lite[/COLOR]" version="3.0" provider-name="RacesonDemand">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
@@ -451,12 +451,12 @@ We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Start you're engines!</summary>
+    <summary lang="en_GB">Motorsport Replays and Live Races.Start you're engines! Credits to the Jen Team</summary>
     <platform>all</platform>
     <language>en</language>
     <license>GPL-2.0-or-later</license>
 	<assets>
-		<icon>icon.gif</icon>
+		<icon>icon.png</icon>
 		<fanart>fanart.jpg</fanart>
   </assets>
   </extension>
