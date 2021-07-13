@@ -10,7 +10,7 @@
     <import addon="script.module.unidecode" />
     <import addon="script.module.inputstreamhelper" />
     <import addon="script.module.resolveurl"/>
-	<import addon="plugin.video.dailymotion_com"/>
+    <import addon="plugin.video.dailymotion_com"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
