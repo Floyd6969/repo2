@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Free"                                                                                                                                    
 	   name="[COLOR red]Free[/COLOR]"                                                 
-	   version="1.2.2"                                                                                                                                        
+	   version="1.2.3"                                                                                                                                        
 	   provider-name="Grot Shops">
-    <requires>
-	    <import addon="script.module.resolveurl" />
-		<import addon="plugin.video.youtube" />
-    </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing"/>
+    <import addon="script.module.unidecode" />
+    <import addon="script.module.inputstreamhelper" />
+    <import addon="script.module.resolveurl"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Third Party Addon</summary>
-    <description lang="en">Brought To You By The Numbers 3 And 7 And The Letter Z - Compatible With Matrix</description>
-	
+    <description lang="en">Brought To You By The Numbers 3 And 7 And The Letter Z - Compatible Only With Matrix</description>
     <platform>all</platform>
+    <language>en</language>
+    <license>GPL-2.0-or-later</license>
 	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+  </assets>
   </extension>
-  
 </addon>
