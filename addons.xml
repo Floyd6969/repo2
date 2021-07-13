@@ -144,7 +144,7 @@
 </addon>
 <addon id="plugin.video.Free"                                                                                                                                    
 	   name="[COLOR red]Free[/COLOR]"                                                 
-	   version="1.2.3"                                                                                                                                        
+	   version="1.2.4"                                                                                                                                        
 	   provider-name="Grot Shops">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -153,6 +153,7 @@
     <import addon="script.module.unidecode" />
     <import addon="script.module.inputstreamhelper" />
     <import addon="script.module.resolveurl"/>
+    <import addon="plugin.video.dailymotion_com"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
