@@ -223,29 +223,6 @@
   </extension>
   
 </addon>
-<addon id="plugin.video.Cloud9"                                                                                                                                    
-	   name="[COLORgold]Cloud 9[/COLOR]"                                                 
-	   version="1.1.1"                                                                                                                                        
-	   provider-name="Trigger">
-    <requires>
-	    <import addon="script.module.resolveurl" />
-    </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Third Party Addon</summary>
-    <description lang="en">We Don't Host Any Of The Streams - They Are All Available On The Internet - Compatible With Matrix</description>
-	
-    <platform>all</platform>
-	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-  
-</addon>
 <addon id="plugin.video.qcontinuum" name="Q Continuum" provider-name="Ezzer-man,Narcacist,cMaN, Stuart, DeLancie" version="0.0.5">
     <requires>
 	    <import addon="script.module.six" version="0.0.1"/>
@@ -333,7 +310,7 @@ We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
   </assets>
   </extension>
 </addon>
-<addon id="plugin.video.fluxus" name="Fluxus IPTV" version="0.0.4" provider-name="X">
+<addon id="plugin.video.fluxus" name="Fluxus IPTV" version="0.0.5" provider-name="X">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"/>
@@ -351,7 +328,7 @@ We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
 		<website></website> 
 		<email></email>
 		<source></source>
-		<news>v0.0.4 - fixed an error loading certain lists. v0.0.3 - Major upgrade!!! Fixed missing links, added Search, added Favourites, added Recently Played, added a link checker to prevent crashing on certain dead links v0.0.1 - Kodi 19</news>
+		<news>v0.0.5 - Fixed myFavourites. v0.0.4 - fixed an error loading certain lists. v0.0.3 - Major upgrade!!! Fixed missing links, added Search, added Favourites, added Recently Played, added a link checker to prevent crashing on certain dead links v0.0.1 - Kodi 19</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
