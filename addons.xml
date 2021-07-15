@@ -310,7 +310,7 @@ We Do Not Host Any Of The Content - It Is All Freely Available On The Internet
   </assets>
   </extension>
 </addon>
-<addon id="plugin.video.fluxus" name="Fluxus IPTV" version="0.0.5" provider-name="X">
+<addon id="plugin.video.fluxus" name="Fluxus IPTV" version="0.0.6" provider-name="X">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"/>
